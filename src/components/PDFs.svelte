@@ -88,7 +88,7 @@
 			<input type="file" id="fileInput" accept="application/pdf" multiple on:change={handleFileInput} style="display: none;"/>
 		 <!-- svelte-ignore a11y_no_static_element_interactions -->
 		 <!-- svelte-ignore a11y_click_events_have_key_events -->
-		 <div class="dragField"
+		 <div class="w-[500px] max-w-[4000px] h-[250px] border-2 border-dashed border-gray-300 rounded-lg flex items-center justify-center text-center cursor-pointer mt-2 p-2"
 		 on:click={triggerFileInput}
 		 on:dragover={handleDragOver}
 		 on:drop={handleDrop}

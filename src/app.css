@@ -58,18 +58,3 @@ button:focus-visible{
 .specialBtn:hover{
     border-color: blue;
 }
-
-.dragField {
-    width: 500px;
-    max-width: 4000px;
-    height:250px;
-    border: 2px dashed #ccc;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    cursor: pointer;
-    margin-top: 10px;
-    padding: 10px;
-}
