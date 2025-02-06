@@ -86,7 +86,6 @@
 	<div class="flex flex-col gap-2 flex-1 items-center justify-center pb-10 md:pb-14">
 		
 			<input type="file" id="fileInput" accept="application/pdf" multiple on:change={handleFileInput} style="display: none;"/>
-		<!-- <button class="specialBtn" on:click={triggerFileInput}>Upload Files</button> -->
 		 <!-- svelte-ignore a11y_no_static_element_interactions -->
 		 <!-- svelte-ignore a11y_click_events_have_key_events -->
 		 <div class="dragField"
